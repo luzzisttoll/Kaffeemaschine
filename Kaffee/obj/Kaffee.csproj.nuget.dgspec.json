@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luzzi\\OneDrive - HTL Dornbirn\\Schule\\3bWI\\SWP\\Beispiele\\C#\\Kaffee\\Kaffee\\Kaffee\\Kaffee.csproj": {}
+    "C:\\Users\\luzzi\\OneDrive - HTL Dornbirn\\Schule\\3bWI\\SWP\\Beispiele\\C#\\Kaffee2\\Kaffee\\Kaffee.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luzzi\\OneDrive - HTL Dornbirn\\Schule\\3bWI\\SWP\\Beispiele\\C#\\Kaffee\\Kaffee\\Kaffee\\Kaffee.csproj": {
+    "C:\\Users\\luzzi\\OneDrive - HTL Dornbirn\\Schule\\3bWI\\SWP\\Beispiele\\C#\\Kaffee2\\Kaffee\\Kaffee.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luzzi\\OneDrive - HTL Dornbirn\\Schule\\3bWI\\SWP\\Beispiele\\C#\\Kaffee\\Kaffee\\Kaffee\\Kaffee.csproj",
+        "projectUniqueName": "C:\\Users\\luzzi\\OneDrive - HTL Dornbirn\\Schule\\3bWI\\SWP\\Beispiele\\C#\\Kaffee2\\Kaffee\\Kaffee.csproj",
         "projectName": "Kaffee",
-        "projectPath": "C:\\Users\\luzzi\\OneDrive - HTL Dornbirn\\Schule\\3bWI\\SWP\\Beispiele\\C#\\Kaffee\\Kaffee\\Kaffee\\Kaffee.csproj",
+        "projectPath": "C:\\Users\\luzzi\\OneDrive - HTL Dornbirn\\Schule\\3bWI\\SWP\\Beispiele\\C#\\Kaffee2\\Kaffee\\Kaffee.csproj",
         "packagesPath": "C:\\Users\\luzzi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luzzi\\OneDrive - HTL Dornbirn\\Schule\\3bWI\\SWP\\Beispiele\\C#\\Kaffee\\Kaffee\\Kaffee\\obj\\",
+        "outputPath": "C:\\Users\\luzzi\\OneDrive - HTL Dornbirn\\Schule\\3bWI\\SWP\\Beispiele\\C#\\Kaffee2\\Kaffee\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luzzi\\AppData\\Roaming\\NuGet\\NuGet.Config",

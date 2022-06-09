@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C6lJK0iF6vAhGh6h/y7sFdcb+7JKX+cLv0M5sVL17EBtDtBfFWMoVTkIEhcpmH+lb4n8bbt3y689CJMAKOtJ/Q==",
+  "dgSpecHash": "5zIpUIJrYUpglpAxzBGZIEiWRAZPISIZTsB6ZFx6DlZE6jwKP4b1jv25Kg9A2IosOe0Dj6NlUmghTlnmz6E1xQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luzzi\\OneDrive - HTL Dornbirn\\Schule\\3bWI\\SWP\\Beispiele\\C#\\Kaffee\\Kaffee\\Kaffee\\Kaffee.csproj",
+  "projectFilePath": "C:\\Users\\luzzi\\OneDrive - HTL Dornbirn\\Schule\\3bWI\\SWP\\Beispiele\\C#\\Kaffee2\\Kaffee\\Kaffee.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luzzi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\luzzi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

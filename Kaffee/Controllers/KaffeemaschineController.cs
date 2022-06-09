@@ -5,20 +5,48 @@ namespace Kaffee.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class Kaffee : ControllerBase
+    public class KaffeemaschinenController : ControllerBase
     {
-        public static Kaffeemaschine Kaffeemaschine = new Kaffeemaschine();
+        private KaffeemaschineClass Kaffeemaschine;
+        
+        public KaffeemaschinenController(KaffeemaschineClass Kaffeemaschine)
+        {
+            this.Kaffeemaschine = Kaffeemaschine;
+        }
 
-        [HttpPut, Route("WasserAuffuellen")]
+        [HttpGet, Route("WasserMenge")]
+        public double getWasser()
+        {
+            return Kaffeemaschine.Wasser;
+        }
+
+        [HttpGet, Route("BohnenMenge")]
+        public double getBohnen()
+        {
+            return Kaffeemaschine.Bohnen;
+        }
+
+        [HttpPost, Route("WasserAuffuellen")]
         public string WasserAuffuellen(double menge)
         {
             return Kaffeemaschine.WasserAuffuellen(menge);
         }
 
-        [HttpPut, Route("BohnenAuffüllen")]
+        [HttpPost, Route("BohnenAuffüllen")]
         public string BohnenAuffuellen(double menge)
         {
             return Kaffeemaschine.BohnenAuffuellen(menge);
+        }
+
+        [HttpPost, Route("KaffeeMachen")]
+        public IActionResult KaffeeMachen(double menge, double verhaeltnisWasserBohnen)
+        {
+            bool worked = Kaffeemaschine.machKaffee(menge, verhaeltnisWasserBohnen);
+            if (worked)
+            {
+                return Ok("Kaffee gemacht, " + Kaffeemaschine.Wasser + "kg Wasser sind übrig und " + Kaffeemaschine.Bohnen + "kg Bohnensind übrig");
+            }
+            return Problem("Kaffee konnte nicht gemacht werden");
         }
     }
 }
