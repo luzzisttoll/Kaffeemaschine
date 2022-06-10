@@ -1,8 +1,11 @@
 using Kaffee.Controllers;
+using System.ComponentModel.DataAnnotations;
+
 namespace KaffeemaschinenVar
 {
     public class KaffeemaschineClass
     {
+        [Key]
         public double Wasser { get; private set; }
 
         public double Bohnen { get; private set; }
@@ -13,7 +16,7 @@ namespace KaffeemaschinenVar
 
         private static double maxBohnen => 2.5;
 
-        public KaffeemaschineClass(double Wasser = 0, double Kaffebohnen = 0, double gesamtMengeKaffeeProduziert = 0)
+        public KaffeemaschineClass(double Wasser = 0, double Bohnen = 0, double gesamtMengeKaffeeProduziert = 0)
         {
             this.Wasser = Wasser;
             this.Bohnen = Bohnen;
